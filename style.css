@@ -20,7 +20,9 @@ h6{
 }
 p{
   font-size: 20px;
-  color: white;
+}
+.float-left{
+  float: left;
 }
 .background-grigio{
   background:#F3F5F9;
@@ -104,12 +106,19 @@ p{
   color: #0069ff;
   text-decoration: none;
 }
+
+/*Slide deploy*/
+ul{
+  list-style: none;
+}
 /*MEDIA QUERY*/
-@media screen and (min-height:768px) {
+@media screen and (min-width:768px) {
 
 }
-@media screen and (min-height:768px) and (max-width:992px){
-
+@media screen and (min-width:992px) and (max-width:1200px){
+  #logs img{
+    margin:0;
+  }
 }
 div.dx{
   /*debug*/
