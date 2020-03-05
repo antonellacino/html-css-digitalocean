@@ -27,6 +27,9 @@ p{
 .background-grigio{
   background:#F3F5F9;
 }
+.background-blu{
+  background:#0069ff;
+}
 .text-right{
   text-align: right;
 }
@@ -40,11 +43,20 @@ p{
   color: #010E28;
   font-weight: bold;
 }
+.verde{
+  color: #14e8e5;
+}
+.margin{
+  margin: 20px 0;
+}
 .margin-top{
   margin-top: 100px;
 }
 .margin-top30{
   margin-top: 30px;
+}
+.margin-bottom{
+  margin-bottom: 50px;
 }
 .padding{
   padding: 20px;
@@ -52,12 +64,7 @@ p{
 .center{
   text-align: center;
 }
-.margin-laterali{
-  margin: 0 20px;
-}
-.margin{
-  margin: 10px 0;
-}
+
 
 
 
@@ -126,7 +133,13 @@ ul{
   padding-top: 250px;
 }
 
-
+/*Slide tabellare*/
+td{
+  padding: 10px 70px;
+}
+td, th{
+  border-bottom: 1px solid white;
+}
 
 
 
@@ -140,7 +153,9 @@ ul{
   #logs img{
     margin:0;
   }
-
+  td{
+    padding: 10px 40px;
+  }
 }
 div.dx{
   /*debug*/
