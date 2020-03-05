@@ -131,7 +131,7 @@ ul{
 
 
 /*MEDIA QUERY*/
-@media screen and (max-width:768px) {
+@media screen and (max-width:992px) {
   #freccia{
     display: none;
   }
@@ -140,6 +140,7 @@ ul{
   #logs img{
     margin:0;
   }
+
 }
 div.dx{
   /*debug*/
