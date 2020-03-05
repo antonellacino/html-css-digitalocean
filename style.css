@@ -30,6 +30,7 @@ p{
 .background-blu{
   background:#0069ff;
 }
+
 .text-right{
   text-align: right;
 }
@@ -151,6 +152,17 @@ td, th{
   margin-bottom: 20px;
 }
 
+/*Footer*/
+.background-notte{
+color: #010E28;
+}
+ul.footer li{
+padding: 5px;
+}
+ul li:first-child{
+  color: white;
+  font-weight: bold;
+}
 /*MEDIA QUERY*/
 @media screen and (max-width:992px) {
   #freccia{
@@ -164,19 +176,4 @@ td, th{
   td{
     padding: 10px 40px;
   }
-}
-div.dx{
-  /*debug*/
-  width:  200px;
-  height: 50px;
-  background-color: #df9bf2;
-  /*debug*/
-}
-div.sx{
-  /*debug*/
-  width:  250px;
-  height: 100px;
-  background-color: #df9bf2;
-  /*debug*/
-
 }
