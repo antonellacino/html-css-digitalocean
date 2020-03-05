@@ -27,6 +27,12 @@ p{
 .margin-top{
   margin-top: 100px;
 }
+.margin-top30{
+  margin-top: 30px;
+}
+.padding{
+  padding: 10px;
+}
 .center{
   text-align: center;
 }
@@ -48,7 +54,7 @@ p{
   background-color: white;
   border-radius:2%;
   width: 80%;
-  padding:0 10px;
+  padding: 10px 15px;
 }
 
 .btn-blu{
@@ -66,18 +72,18 @@ p{
   border-radius: 3%;
 }
 .google{
-  width: 50px;
-  height: auto;
+  height: 25px;
   float:left;
-  padding-bottom: 5px;
 }
-
+.h6line-height{
+  line-height: 25px;
+}
 
 @media screen and (min-height:768px) {
 
 }
 @media screen and (min-height:768px) and (max-width:992px){
-  
+
 }
 div.dx{
   /*debug*/
