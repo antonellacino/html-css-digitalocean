@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+body{
+  padding-top: 51px;
+}
 /*Regole generiche*/
 h1{
   font-size: 50px;
@@ -66,7 +69,24 @@ p{
   text-align: center;
 }
 
+/*navbar*/
+#logo{
+  height: 100%;
+}
+#central-nav{
+  margin-left: 20%;
+}
+#central-nav a, #right-nav a{
+  color: #010E28;
+  font-weight: bold;
+}
+#btn-sign-up{
+  color: #1633FF;
+  background-color: white;
+  border: 1px solid  #1633FF;
+  margin-top: 10px;
 
+}
 
 
 /*slide iniziale*/
@@ -143,7 +163,7 @@ td, th{
 }
 
 /*sez love digital ocean*/
-.btn{
+.btn-create{
   width: 160px;
   height: 40px;
   background-color: white;
@@ -154,7 +174,7 @@ td, th{
 
 /*Footer*/
 .background-notte{
-color: #010E28;
+  background-color: #010E28;
 }
 ul.footer li{
 padding: 5px;
@@ -163,10 +183,22 @@ ul li:first-child{
   color: white;
   font-weight: bold;
 }
+ul.footer a{
+  color: #F3F5F9;
+  text-decoration: none;
+}
+.grigio{
+  color: #F3F5F9;
+}
 /*MEDIA QUERY*/
 @media screen and (max-width:992px) {
   #freccia{
     display: none;
+  }
+}
+@media screen and (min-width:769px) and (max-width:1200px){
+  #central-nav{
+    margin:0;
   }
 }
 @media screen and (min-width:992px) and (max-width:1200px){
