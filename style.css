@@ -27,11 +27,18 @@ p{
 .background-grigio{
   background:#F3F5F9;
 }
+.text-right{
+  text-align: right;
+}
 .white{
   color: white;
 }
 .blue{
   color: #1633FF;
+}
+.blu-notte{
+  color: #010E28;
+  font-weight: bold;
 }
 .margin-top{
   margin-top: 100px;
@@ -111,9 +118,23 @@ p{
 ul{
   list-style: none;
 }
-/*MEDIA QUERY*/
-@media screen and (min-width:768px) {
 
+/*Slide developers*/
+.font-size{
+  font-size: 50px;
+  color: #010E28;
+  padding-top: 250px;
+}
+
+
+
+
+
+/*MEDIA QUERY*/
+@media screen and (max-width:768px) {
+  #freccia{
+    display: none;
+  }
 }
 @media screen and (min-width:992px) and (max-width:1200px){
   #logs img{
