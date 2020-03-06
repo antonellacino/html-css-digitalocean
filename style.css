@@ -85,9 +85,11 @@ p{
   background-color: white;
   border: 1px solid  #1633FF;
   margin-top: 10px;
-
 }
-
+##btn-sign-up:hover{
+  color: white;
+  background-color: #1633FF;
+}
 
 /*slide iniziale*/
 .background{
@@ -96,8 +98,7 @@ p{
 }
 .background-bianco{
   background-color: white;
-  border-radius:2%;
-  width: 80%;
+  border-radius:3%;
   padding: 10px 15px;
 }
 
@@ -108,7 +109,9 @@ p{
   font-size: 12px;
   font-weight: bold;
   border-radius: 3%;
+  margin-top:10px;
 }
+
 .btn-google{
   width: 100%;
   font-size: 12px;
@@ -130,7 +133,7 @@ p{
   padding:30px 0;
 }
 #logs img{
-  height: 50px;
+  height: 45px;
   width: 160px;
   margin:10px;
 }
@@ -141,6 +144,20 @@ p{
   color: #0069ff;
   text-decoration: none;
 }
+
+/*sez con 4 sezioni*/
+ul.nav-stacked li{
+  border-left: 2px solid grey;
+}
+ul.nav-stacked a:hover{
+background-color: none;
+color: black;
+}
+ul.nav-stacked a{
+color: #818DA6;
+}
+
+
 
 /*Slide deploy*/
 ul{
@@ -190,6 +207,14 @@ ul.footer a{
 .grigio{
   color: #F3F5F9;
 }
+#loghetto{
+  height: 50PX;
+  margin-bottom: 10px;
+}
+.contatti{
+  margin-top:10px;
+}
+
 /*MEDIA QUERY*/
 @media screen and (max-width:992px) {
   #freccia{
