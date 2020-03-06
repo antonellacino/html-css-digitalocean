@@ -65,13 +65,18 @@ p{
 .margin-bottom{
   margin-bottom: 50px;
 }
+.margin-bottom10{
+  margin-bottom: 10px;
+}
 .padding{
   padding: 20px;
 }
 .center{
   text-align: center;
 }
-
+.width100{
+  width: 100%;
+}
 /*navbar*/
 #logo{
   height: 100%;
@@ -148,6 +153,8 @@ p{
   text-decoration: none;
 }
 
+
+
 /*sez con 4 sezioni*/
 ul.nav-stacked li{
   border-left: 2px solid grey;
@@ -173,7 +180,19 @@ ul{
   color: #010E28;
   padding-top: 250px;
 }
-
+.slide-navigation{
+  margin: auto;
+}
+.circle{
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border:1px solid #1633FF;
+}
+.sfondo{
+  background: #1633FF;
+}
 /*Slide tabellare*/
 td{
   padding: 10px 70px;
@@ -241,6 +260,9 @@ ul.footer a{
   div.clear{
     display: block;
   }
+  .img-slide{
+    width: 60%;
+  }
 }
 
 @media screen and (min-width:992px) and (max-width:1200px){
@@ -257,5 +279,11 @@ ul.footer a{
     height: 45px;
     width: 143px;
     margin: 5px;
+  }
+  .img-slide{
+    width: 80%;
+  }
+  .font-size{
+    padding-top: 130px;
   }
 }
